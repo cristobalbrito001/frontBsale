@@ -1,0 +1,28 @@
+{
+  "name": "bsale-front-spa",
+  "version": "1.0.0",
+  "description": "single page aplication",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "cristobal",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "copy-webpack-plugin": "^6.4.1",
+    "fetch": "^1.1.0",
+    "html-webpack-plugin": "^4.5.2"
+  }
+}
